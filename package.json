@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/LabLamb/MTR-Cards-Backend/issues"
   },
-  "homepage": "https://github.com/LabLamb/MTR-Cards-Backend#readme"
+  "homepage": "https://github.com/LabLamb/MTR-Cards-Backend#readme",
+  "dependencies": {
+    "node-schedule": "^1.3.2"
+  }
 }
