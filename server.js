@@ -11,5 +11,5 @@ http.listen(process.env.PORT || 3000)
 
 var job = schedule.scheduleJob('*/10 * * * * *', () => {
     console.log(`This job should be running every 10 seconds.`);
-    io.of('/').emit(`This job should be running every 10 seconds.`)
+    io.sockets.emit(`This job should be running every 10 seconds.`)
 });
