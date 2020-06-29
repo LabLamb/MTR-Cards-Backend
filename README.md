@@ -14,7 +14,7 @@ e.g. https://mtr-cards.herokuapp.com/stations/WRL
 
 ## Event names
 ### How to get an update of a station
-`${line}_${station}_UPDATE <br>
+`${line}_${station}_UPDATE` <br>
 e.g. WRL_YUL_UPDATE
 
 ## JSON Spec
