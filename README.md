@@ -3,7 +3,7 @@ A Node backend server that queries the [MTR](https://en.wikipedia.org/wiki/MTR) 
 
 # Usage
 ## Socket.io server url
-`https://mtr-cards.herokuapp.com/`
+https://mtr-cards.herokuapp.com/
 
 ## APIs
 ### How to get all the avalible lines
@@ -14,7 +14,7 @@ e.g. https://mtr-cards.herokuapp.com/stations/WRL
 
 ## Event names
 ### How to get an update of a station
-`${line}_${station}_UPDATE
+`${line}_${station}_UPDATE <br>
 e.g. WRL_YUL_UPDATE
 
 ## JSON Spec
