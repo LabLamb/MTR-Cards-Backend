@@ -14,3 +14,8 @@ e.g. https://mtr-cards.herokuapp.com/stations/WRL
 
 ## Event names
 ### How to get an update of a station
+`${line}_${station}_UPDATE
+e.g. WRL_YUL_UPDATE
+
+## JSON Spec
+https://opendata.mtr.com.hk/doc/Next_Train_DataDictionary_v1.1.pdf (page 5)
