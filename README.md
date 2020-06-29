@@ -9,5 +9,5 @@ A Node backend server that queries the [MTR](https://en.wikipedia.org/wiki/MTR) 
 ### How to get all the avalible lines
 `https://mtr-cards.herokuapp.com/lines`
 ### How to get all the stations in a certain line
-`https://mtr-cards.herokuapp.com/stations/${line}`
+`https://mtr-cards.herokuapp.com/stations/${line}` <br>
 e.g. `https://mtr-cards.herokuapp.com/stations/WRL`
