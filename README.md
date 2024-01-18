@@ -14,4 +14,4 @@ e.g. https://mtr-cards.herokuapp.com/stations/WRL
 e.g. WRL_YUL_UPDATE
 
 ## JSON Spec
-https://opendata.mtr.com.hk/doc/Next_Train_DataDictionary_v1.1.pdf (page 5)
+https://opendata.mtr.com.hk/doc/Next_Train_DataDictionary_v1.6.pdf (page 8)
