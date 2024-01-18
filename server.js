@@ -26,16 +26,16 @@ io.on('connection', socket => {
   console.log(`${socket.id} connected.`);
 });
 
-schedule.scheduleJob('*/10 * * * * *', () => {
+schedule.scheduleJob('*/20 * * * * *', () => {
   for (let line in mtrLinesAcronyms) {
     for (let station in mtrStationsAcronyms[line]) {
       apiClient
-        .fetchMTRTime(`${line}`, `${station}`)
+        .fetchMTRTime(line, station, 'TC')
         .then(res => {
           io.of(`/`).emit(`${line}_${station}_UPDATE`, res.data);
         })
         .catch(err => {
-          console.log(err);
+          console.error(err);
           io.of(`/`).emit(`${line}_${station}_UPDATE`, `Something went wrong.`);
         });
     }
